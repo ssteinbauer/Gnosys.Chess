@@ -1,0 +1,36 @@
+{
+  "name": "gnosys.chess",
+  "version": "1.0.0",
+  "description": "A chess application for play PvP chess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssteinbauer/Gnosys.Chess.git"
+  },
+  "keywords": [
+    "node.js",
+    "react",
+    "chess",
+    "PvP"
+  ],
+  "author": "Shane Steinbauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssteinbauer/Gnosys.Chess/issues"
+  },
+  "homepage": "https://github.com/ssteinbauer/Gnosys.Chess#readme",
+  "dependencies": {
+    "chai": "^3.3.0",
+    "express": "^4.13.3",
+    "mocha": "^2.3.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0"
+  }
+}

@@ -1,0 +1,47 @@
+.chess-board {
+	display: table;
+	margin: 1px;
+}
+
+.chess-board > .chess-board-row {
+	display: table-row;
+	height: 50px;
+	width: 50px;
+}
+
+.chess-board-row > .chess-board-row-label {
+	color: darkgrey;
+	display: table-cell;
+	font-size: smaller;
+	padding: 0 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.chess-board-row > .chess-board-column-label {
+	color: darkgrey;
+	display: table-cell;
+	font-size: smaller;
+	text-align: center;
+	width: 50px;
+}
+
+.chess-board-row > .chess-board-cell {
+	border: solid .5px black;	
+	display: table-cell;
+	font-size: small;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	width: 50px;
+}
+
+.chess-board-row > .chess-board-cell-dark {
+	background-color: silver;
+	display: table-cell;
+	font-size: small;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	width: 50px;
+}

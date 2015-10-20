@@ -1,3 +1,6 @@
+# Windows
+*.swp
+
 # Logs
 logs
 *.log
